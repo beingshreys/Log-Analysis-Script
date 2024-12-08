@@ -12,7 +12,8 @@ Features
 3. Suspicious Activity Detection
    Detects potential brute force attempts by identifying IP addresses with failed login attempts exceeding a threshold (default: 10).
    Flags suspicious IPs using HTTP status codes (401) or failure messages like "Invalid credentials."
-4. Output Results
+
+Output Results
 5. Terminal Output: Displays results in a clear and concise format.
    CSV Report: Exports the analysis to log_analysis_results.csv, including:
    Request counts per IP (IP Address, Request Count).
